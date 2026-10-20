@@ -1,1 +1,1 @@
-export { fetchAllBooks } from './bookService.js';
+export { fetchAllBooks } from '../bookService.js';
