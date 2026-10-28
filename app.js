@@ -1,7 +1,12 @@
 import express from 'express';
 import bookRoute from './route/bookRoute.js';
 
+//create express app
 const app = express();
+
+//to parse incoming data
+app.use(express.json());
+
 
 app.use('/book', bookRoute);
 
